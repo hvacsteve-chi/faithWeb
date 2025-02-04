@@ -1,0 +1,227 @@
+* {
+    * {
+        /* MAIN SITE COLORS/BRAND  */
+        --brand: hsl(212, 100%, 50%);
+        /* --brand:hsl(233, 100%, 51%); */
+        --brand-deep: hsl(239, 90%, 20%);
+        --brand-thin: hsl(184, 100%, 50%);
+
+        --brand-hue: 212;
+        --brand-saturation: 100%;
+        --brand-lightness: 50%;
+
+        --brand-deep-hue: 239;
+        --brand-deep-saturation: 90%;
+        --brand-deep-lightness: 20%;
+
+        --brand-thin-hue: 184;
+        --brand-thin-saturation: 100%;
+        --brand-thin-lightness: 50%;
+
+        --color-black: #212124;
+        --color-black-hsl: hsl(0, 0%, 3%);
+
+        --color-grey: #2f2f33;
+        --color-grey-hsl: hsl(240, 4%, 19%);
+
+        --color-white: #fdfdfe;
+        --color-white-1: #ffffee;
+    --color-white-hsl(0, 0 %, 100 %);
+
+        --color-blue: #0522ffee;
+        --color-blue-1: #0f0aff88;
+        --color-blue-hsla: hsla(233, 100%, 51%, 0.6);
+
+        --color-teal: #17ffff;
+        --color-teal-rgba: rgba(22, 223, 255, .85);
+
+        /* overall site uses {color} */
+        --site-blue-500: #4285f4, rgb(66, 133, 244);
+        --site-red-500: #ea4335, rgb(234, 67, 53);
+        --site-green-500: #34a853, rgb(52, 168, 83);
+        --site-grey-500: #5f6368, rgb(95, 99, 104);
+
+        --site-background-blue-500: #4285f4, rgb(66, 133, 244);
+        --site-background-blue-linear-1: -webkit-linear-gradient(to right, #4387fd, #4683ea), linear-gradient(to right, #4387fd, #4683ea);
+
+        --site-text: rgba(51, 51, 51, 0.98);
+        --site-text: rgb(51, 51, 51);
+
+        --text-color-dark: #bdc1c6;
+        --text-color-dark-h: #3c4043;
+
+        --link-color-dark: #969ba1;
+        --link-color-hover-dark: #4683ea;
+        --all-links-dark: -webkit-tap-highlight-color rgba(255, 255, 255, .10);
+
+
+        --button-color-dark: #4285f4;
+
+        --site-primary-border: 1px solid #dadce0;
+        --border-color-dark: 1px solid #4285f4;
+
+
+        --color-stroke: 1px solid #dadce0;
+    }
+
+    * {
+        /* DARK COLORS */
+        --brand-dark: hsl(var(--brand-hue) calc(var(--brand-saturation) / 2) calc(var(--brand-lightness) / 1.5));
+        --text1-dark: hsl(var(--brand-hue) 15% 85%);
+        --text2-dark: hsl(var(--brand-hue) 5% 65%);
+        --surface1-dark: hsl(var(--brand-hue) 10% 10%);
+        --surface2-dark: hsl(var(--brand-hue) 10% 15%);
+        --surface3-dark: hsl(var(--brand-hue) 5% 20%);
+        --surface4-dark: hsl(var(--brand-hue) 5% 25%);
+        --surface-shadow-dark: var(--brand-hue) 50% 3%;
+        --shadow-strength-dark: .8;
+    }
+
+    * {
+        /* LIGHT COLORS */
+        --brand-light: hsl(var(--brand-hue) var(--brand-saturation) var(--brand-lightness));
+        --text1-light: hsl(var(--brand-hue) var(--brand-saturation) 10%);
+        --text2-light: hsl(var(--brand-hue) 30% 30%);
+        --surface1-light: hsl(var(--brand-hue) 25% 90%);
+        --surface2-light: hsl(var(--brand-hue) 20% 99%);
+        --surface3-light: hsl(var(--brand-hue) 20% 92%);
+        --surface4-light: hsl(var(--brand-hue) 20% 85%);
+        --surface-shadow-light: var(--brand-hue) 10% calc(var(--brand-lightness) / 5);
+        --shadow-strength-light: .02;
+    }
+
+    * {
+        /* DEEP COLORS */
+        --brank-deep: hsl(var(--brand-deep-hue) calc(var(--brand-deep-saturation) / 2) calc(var(--brand-deep-lightness) / 1.5));
+        --text1-deep: hsl(var(--brand-deep-hue) 15% 85%);
+        --text2-deep: hsl(var(--brand-deep-hue) 5% 65%);
+        --surface1-deep: hsl(var(--brand-deep-hue) 10% 10%);
+        --surface2-deep: hsl(var(--brand-deep-hue) 10% 15%);
+        --surface3-deep: hsl(var(--brand-deep-hue) 5% 20%);
+        --surface4-deep: hsl(var(--brand-deep-hue) 5% 25%);
+        --surface-shadow-dark: var(--brand-deep-hue) 50% 3%;
+        --shadow-strength-dark: .8;
+    }
+
+    * {
+        /* THIN COLORS */
+        --brand-thin: hsl(var(--brand-thin-hue) var(--brand-thin-saturation) var(--brand-thin-lightness));
+        --text1-thin: hsl(var(--brand-thin-hue) var(--brand-thin-saturation) 10%);
+        --text2-thin: hsl(var(--brand-thin-hue) 30% 30%);
+        --surface1-thin: hsl(var(--brand-thin-hue) 25% 90%);
+        --surface2-thin: hsl(var(--brand-thin-hue) 20% 99%);
+        --surface3-thin: hsl(var(--brand-thin-hue) 20% 92%);
+        --surface4-thin: hsl(var(--brand-thin-hue) 20% 85%);
+        --surface-shadow-light: var(--brand-thin-hue) 10% calc(var(--brand-thin-lightness) / 5);
+        --shadow-strength-light: .02;
+    }
+
+    :root {
+        /* dark mode */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                color-scheme: dark;
+                --brand: var(--brand-dark);
+                --text1: var(--text1-dark);
+                --text2: var(--text2-dark);
+                --surface1: var(--surface1-dark);
+                --surface2: var(--surface2-dark);
+                --surface3: var(--surface3-dark);
+                --surface4: var(--surface4-dark);
+                --surface-shadow: var(--surface-shadow-dark);
+                --shadow-strength: var(--shadow-strength-dark);
+            }
+        }
+        /* light mode */
+        @media (prefers-color-scheme: light) {
+            :root {
+                color-scheme: light;
+                --brand: var(--brand-light);
+                --text1: var(--text1-light);
+                --text2: var(--text2-light);
+                --surface1: var(--surface1-light);
+                --surface2: var(--surface2-light);
+                --surface3: var(--surface3-light);
+                --surface4: var(--surface4-light);
+                --surface-shadow: var(--surface-shadow-light);
+                --shadow-strength: var(--shadow-strength-light);
+            }
+        }
+    }
+
+    :root {
+        /* Surface shadows dark */
+        --surface-shadow-dark: var(--brand-hue) 50% 3%;
+        --shadow-strength-dark: .8;
+        /* Surface shadows light */
+        --surface-shadow-light: var(--brand-hue) 10% 20%;
+        --shadow-strength-light: .02;
+    }
+
+    /* Faith SHADOW CLASS */
+
+    .faith-shadow {
+        box-shadow: 0 2.8px 2.2px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .03)), 0 6.7px 5.3px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .01)), 0 12.5px 10px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .02)), 0 22.3px 17.9px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .02)), 0 41.8px 33.4px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .03)), 0 100px 80px hsl(var(--surface-shadow) / var(--shadow-strength));
+    }
+
+    /* USING THEMES */
+    /* Using Light Theme */
+
+    [color-scheme="light"] {
+        color-scheme: light;
+        --brand: var(--brand-light);
+        --text1: var(--text1-light);
+        --text2: var(--text2-light);
+        --surface1: var(--surface1-light);
+        --surface2: var(--surface2-light);
+        --surface3: var(--surface3-light);
+        --surface4: var(--surface4-light);
+        --surface-shadow: var(--surface-shadow-light);
+        --shadow-strength: var(--shadow-strength-light);
+    }
+
+    /* Using Dark Scheme */
+
+    [color-scheme="dark"] {
+        color-scheme: dark;
+        --brand: var(--brand-dark);
+        --text1: var(--text1-dark);
+        --text2: var(--text2-dark);
+        --surface1: var(--surface1-dark);
+        --surface2: var(--surface2-dark);
+        --surface3: var(--surface3-dark);
+        --surface4: var(--surface4-dark);
+        --surface-shadow: var(--surface-shadow-dark);
+        --shadow-strength: var(--shadow-strength-dark);
+    }
+
+    /* Using Thin Scheme */
+
+    [color-scheme="thin"] {
+        color-scheme: thin;
+        --brand: var(--brand-thin);
+        --text1: var(--text1-thin);
+        --text2: var(--text2-thin);
+        --surface1: var(--surface1-thin);
+        --surface2: var(--surface2-thin);
+        --surface3: var(--surface3-thin);
+        --surface4: var(--surface4-thin);
+        --surface-shadow: var(--surface-shadow-light);
+        --shadow-strength: var(--shadow-strength-light);
+    }
+
+    /* Using Deep Scheme */
+
+    [color-scheme="deep"] {
+        color-scheme: deep;
+        --brand: var(--brand-deep);
+        --text1: var(--text1-deep);
+        --text2: var(--text2-deep);
+        --surface1: var(--surface1-deep);
+        --surface2: var(--surface2-deep);
+        --surface3: var(--surface3-deep);
+        --surface4: var(--surface4-deep);
+        --surface-shadow: var(--surface-shadow-dark);
+        --shadow-strength: var(--shadow-strength-dark);
+    }
+}

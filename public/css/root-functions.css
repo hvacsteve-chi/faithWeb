@@ -1,0 +1,106 @@
+* {
+  /* buttons  */
+  --site-button-background-hover: #e8eaed;
+  --site-button-border-hover: none;
+  --site-button-box-shadow-active: none;
+  --site-button-box-shadow-focus: 0 0 0 1px #fff, 0 0 0 3px #1769e0;
+  --site-button-background-active: #e8eaed;
+  --site-button-text-transform: none;
+  --site-button-transform-active: scale(0.96);
+  --site-button-border-radius: 50%;
+  --site-button-box-shadow: none;
+  --site-button-padding: 4px;
+  --site-button-box-shadow-hover: none;
+
+  /* box shadows */
+  --box-shadow: rgba(0, 0, 0, 0.12) 0 1px 2px 0, 0 1px 3px 1px;
+  --site-slide-nav-box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%),
+    0 2px 6px 2px rgb(60 64 67 / 15%);
+  --site-nav-drawer-box-shadow: 0 0 16px 0 rgb(16 22 42 / 16%);
+  --box-shadow-header: 0 1px 2px 0 rgb(60 64 67 / 30%),
+    0 2px 6px 2px rgb(60 64 67 / 15%);
+  --box-shadow-card-1: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+
+  /* added colors  */
+  --site-color-primary: #17ffff;
+  --site-color-primary-rgba: rgba(22, 223, 255, 0.85);
+
+  /*added recents*/
+  --site-text: rgba(51, 51, 51, 0.98);
+  --site-text: rgb(51, 51, 51);
+
+  /* site navigation */
+  --nav-height: 48px, auto;
+  --ribbon-height: 32px, auto;
+
+  /* site hero/containers  */
+  --hero-height: min-height 100vh, 100%;
+  --hero-minus-navs: calc(100vh - var(--nav-height));
+
+  /* site padding / margins */
+  --padding-0: 0;
+  --padding-8: 8px;
+  --padding-12: 12px;
+  --padding-16: 16px;
+  --padding-24: 24px;
+  --paddng-32: 32px;
+  --padding-40: 40px;
+  --padding-48: 48px;
+
+  --margin-0: 0;
+  --margin-8: 8px;
+  --margin-12: 12px;
+  --margin-16: 16px;
+  --margin-24: 24px;
+  --margin-32: 32px;
+  --margin-40: 40px;
+  --margin-48: 48px;
+
+  --box-padding-small: 8px 16px;
+  --box-padding-medium: 16px 24px;
+  --box-padding-large: 24px 40px;
+  --box-padding-xlarge: 48px;
+
+  /* border-box */
+  --box-sizing: -webkit-box-sizing border-box, box-sizing border-box;
+  /* site borders */
+  --site-border-1: 1px solid var(--surface1);
+  --site-border-2: 1px solid var(--surface3);
+
+  /* site transitions/transforms */
+  --site-webkit-transform: -webkit-transform 0.3s
+    cubic-bezier(0.465, 0.183, 0.153, 0.946);
+  --site-transform: 0.3s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+
+  --transition0: transform 350ms;
+  --transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  --transition-opacity: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  --transition-drawer: transform 0.3s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+
+  /* user/pointer - events/select / */
+  --site-user-select: -webkit-user-select: none, -moz-user-select: none,
+    user-select: none;
+  --site-no-pointer-events: -webkit-pointer-events none,
+    -moz-pointer-events none, pointer-events none;
+  --site-all-pointer-events -webkit-pointer-events: all,
+    -moz-pointer-events: all, pointer-events: all;
+  --cubic-opacity: -webkit-transition opacity 0.3s
+    cubic-bezier(0.25, 0.1, 0.25, 1);
+  --tap-select: -webkit-tap-highlight-color transparent;
+
+  /* backdrop filters  */
+  --site-backdrop-filter-under: -webkit-backdrop-filter blur(5px) saturate(80%),
+    backdrop-filter blur(5px) saturate(80%);
+  --site-backdrop-filter-over: -webkit-backdrop-filter blur(4px) saturate(180%),
+    backdrop-filter blur(4px) saturate(180%);
+
+  /* font-familys */
+  --site-font-primary: 'Noto Sans Display', 'Roboto', 'Roboto flex', 'Hack',
+    monospace, sans-serif, serif;
+  --site-secondary-font-family: 'SF Pro Display', system-ui,
+    'SF Compact Display', Roboto, 'Roboto Slab', Monospace, sans-serif;
+  --site-primary-font-family: Roboto, system-ui, monospace, sans-serif;
+  --site-secondary-font: 400 16px/24px var(--site-secondary-font-family);
+  --site-primary-font: 400 16px/24px var(--site-primary-font-family);
+}

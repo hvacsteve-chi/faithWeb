@@ -1,0 +1,120 @@
+/* THIS IS THE SEARCH BUTTON STYLES */
+
+.openSearchBox{
+    position:relative;
+    height:48px;
+    width:48px;
+}
+.openSearchBox:before,
+.openSearchBox:after{
+    content: "";
+    postion: absolute;
+}
+.openSearch{
+    position:relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    max-height: 60px;
+    max-width: calc(100vw - 58px);
+    width: 100%;
+    padding:0;
+    margin:0;
+    filter: saturation(95%) blur(2px);
+    background: rgba(41,41,41,.2);
+}
+.openSearch .inputSearch{
+    position:absolute;
+    left:0;
+    padding:0;
+    margin:0;
+    background: rgba(41,41,41,.11);
+    backdrop-filter: saturation(180%) blur(8px);
+    width:100%;
+}
+.inputSearch input{
+    border:0;
+    height:36px;
+    width:100%;
+    border-radius:0;
+    margin-left: 24px;
+    padding-left: 30px;
+    padding-right: 70px;
+    outline:none;
+    background:transparent;
+    font-size: 20px;
+    overflow-x:hidden;
+}
+.inputSearch input::placeholder{
+    color: var(--text1);
+    font-size:20px;
+}
+.inputSearch input:is(:hover,:focus){
+    transition: all .2s;
+    transform: all 250ms ease-in-out;
+    background: rgba(40,40,40,.14);
+}
+.openSearch .searchglass{
+    postion:absolute;
+    left:0;
+    z-index:4;
+}
+.searchglass img{
+    position: 48px;
+    width: 48px;
+    border-radius: 50px;
+    z-index: 5;
+}
+.closeSearch{
+    position: absolute;
+    right:0;
+    padding:0;
+    z-index: 4;
+}
+button .closebutton{
+    height:44px;
+    background:purple;
+    color:#fff;
+    border:0;
+    border-radius: 4px;
+    transition-delay: .4s;
+}
+.closebutton{
+    background:rgba(0,0,0,.25);
+    padding: 0 8px;
+}
+.closebutton:hover,
+.closebutton:focus{
+    background: lightblue;
+    transition: all .2s ease-in-out;
+}
+.opensearch:after{
+    height:0;
+    width:248px;
+    background: rgba(56,109,241,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,.1);
+    animation: searchAnimate 1s ease-in-out;
+    z-index: 1;
+    animation-delay: -1s;
+}
+.opensearch img{
+    height:40px;
+    max-width:100%;
+}
+.opensearch button{
+    height:36px;
+    max-width:100%;
+    background-color:transparent;
+    color: rgba(0,0,255,.87);
+    outline:none; border:0;
+    margin-right:5px;}
+
+@keyframes searchAnimate {
+    0%,
+    100% {
+        transform: translateX(280px);
+        transform: height(100%);
+    }
+}
