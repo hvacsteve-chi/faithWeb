@@ -55,7 +55,6 @@
       *::after {
           margin: 0;
           padding: 0;
-          -webkit-box-sizing: inherit;
           box-sizing: inherit;
           -webkit-text-size-adjust: 100%;
           text-size-adjust: 100%;
@@ -83,8 +82,6 @@
           -moz-box-direction: normal;
           -ms-flex-direction: column;
           flex-direction: column;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
           box-sizing: border-box;
           margin: 0;
           padding: 0;
@@ -118,7 +115,6 @@
           font-synthesis: weight;
           -moz-font-feature-settings: "kern";
           font-feature-settings: "kern";
-          -osx-font-smoothing: grayscale;
           direction: ltr;
           text-align: left;
       }
@@ -137,7 +133,7 @@
           width: calc(100% - 20px);
       }
       .material-symbols-outlined {
-          font-family: 'Material Symbols Outlined';
+          font-family: 'Material Symbols Outlined',monospace,sans-serif;
           font-weight: normal;
           font-style: normal;
           font-size: 24px;  /* Preferred icon size */
@@ -193,7 +189,6 @@
           min-height: 100%;
           height: 100%;
           width: 100%;
-          -webkit-box-sizing: border-box;
           box-sizing: border-box;
           display: block;
           /*background: url('img/background/backgroundimg.png') center;*/
@@ -214,8 +209,6 @@
           -webkit-backdrop-filter: blur(5px) saturate(80%);
           backdrop-filter: blur(5px) saturate(80%);
           z-index: 2;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
           box-sizing: border-box;
       }
 
@@ -234,8 +227,6 @@
           z-index: 5;
           border-bottom: 1px solid hsla(0, 0%, 0%, 0.41);
           box-shadow: hsla(0, 0%, 0%, 0.41) 1px 2px 5px 1px;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
           box-sizing: border-box;
           transition: all;
           transform: scalez(1.2);
@@ -354,7 +345,6 @@
           min-block-size:calc(100vmin - var(--nav-height));
           width: 100%;
           inline-size: 100%;
-          -webkit-box-sizing: border-box;
           box-sizing: border-box;
           overflow-y:auto;
           overflow-x:hidden;
@@ -362,7 +352,6 @@
 
       .hero {
           height: calc(100vmin - var(--nav-height));
-          -webkit-box-sizing: border-box;
           box-sizing: border-box;
           margin-bottom:3.2rem;
           color: #777;
@@ -750,11 +739,11 @@
           </li>
 
           <li class="mobile-links" style="padding-right:6px;">
-            <a id="menuLinksSearchButton" class="menu-search-button menu-links--1" href="#" alt="search the site" aria-expanded="false"><i class="material-symbols-outlined">search</i></a>
+            <a id="menuLinksSearchButton" class="menu-search-button menu-links--1" href="#"  aria-expanded="false"><i class="material-symbols-outlined">search</i></a>
           </li>
 
           <li class="mobile-links">
-            <a id="menuLinksAppButton" class="menu-app-button menu-links--1" href="#" alt="site menu button"  aria-expanded="false" aria-disabled="true"><i class="material-symbols-outlined">menu</i></a>
+            <a id="menuLinksAppButton" class="menu-app-button menu-links--1" href="#" aria-expanded="false" aria-disabled="true"><i class="material-symbols-outlined">menu</i></a>
           </li>
         </ul>
       </div>

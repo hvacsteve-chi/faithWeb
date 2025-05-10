@@ -1,67 +1,66 @@
 * {
-        /* MAIN SITE COLORS/BRAND  */
-        --brand: hsl(212, 100%, 50%);
-        /* --brand:hsl(233, 100%, 51%); */
-        --brand-deep: hsl(239, 90%, 20%);
-        --brand-thin: hsl(184, 100%, 50%);
+    /* MAIN SITE COLORS/BRAND  */
+    --brand: hsl(212, 100%, 50%);
+    /* --brand:hsl(233, 100%, 51%); */
+    --brand-deep: hsl(239, 90%, 20%);
+    --brand-thin: hsl(184, 100%, 50%);
 
-        --brand-hue: 212;
-        --brand-saturation: 100%;
-        --brand-lightness: 50%;
+    --brand-hue: 212;
+    --brand-saturation: 100%;
+    --brand-lightness: 50%;
 
-        --brand-deep-hue: 239;
-        --brand-deep-saturation: 90%;
-        --brand-deep-lightness: 20%;
+    --brand-deep-hue: 239;
+    --brand-deep-saturation: 90%;
+    --brand-deep-lightness: 20%;
 
-        --brand-thin-hue: 184;
-        --brand-thin-saturation: 100%;
-        --brand-thin-lightness: 50%;
+    --brand-thin-hue: 184;
+    --brand-thin-saturation: 100%;
+    --brand-thin-lightness: 50%;
 
-        --color-black: #212124;
-        --color-black-hsl: hsl(0, 0%, 3%);
+    --color-black: #212124;
+    --color-black-hsl: hsl(0, 0%, 3%);
 
-        --color-grey: #2f2f33;
-        --color-grey-hsl: hsl(240, 4%, 19%);
+    --color-grey: #2f2f33;
+    --color-grey-hsl: hsl(240, 4%, 19%);
 
-        --color-white: #fdfdfe;
-        --color-white-1: #ffffee;
-    --color-white-hsl(0, 0 %, 100 %);
+    --color-white: #fdfdfe;
+    --color-white-1: #ffffee;
+    --color-white-hsl: hsl(0, 0%, 100%);
 
-        --color-blue: #0522ffee;
-        --color-blue-1: #0f0aff88;
-        --color-blue-hsla: hsla(233, 100%, 51%, 0.6);
+    --color-blue: #0522ffee;
+    --color-blue-1: #0f0aff88;
+    --color-blue-hsla: hsla(233, 100%, 51%, 0.6);
 
-        --color-teal: #17ffff;
-        --color-teal-rgba: rgba(22, 223, 255, .85);
+    --color-teal: #17ffff;
+    --color-teal-rgba: rgba(22, 223, 255, .85);
 
-        /* overall site uses {color} */
-        --site-blue-500: #4285f4, rgb(66, 133, 244);
-        --site-red-500: #ea4335, rgb(234, 67, 53);
-        --site-green-500: #34a853, rgb(52, 168, 83);
-        --site-grey-500: #5f6368, rgb(95, 99, 104);
+    /* overall site uses {color} */
+    --site-blue-500: #4285f4, rgb(66, 133, 244);
+    --site-red-500: #ea4335, rgb(234, 67, 53);
+    --site-green-500: #34a853, rgb(52, 168, 83);
+    --site-grey-500: #5f6368, rgb(95, 99, 104);
 
-        --site-background-blue-500: #4285f4, rgb(66, 133, 244);
-        --site-background-blue-linear-1: -webkit-linear-gradient(to right, #4387fd, #4683ea), linear-gradient(to right, #4387fd, #4683ea);
+    --site-background-blue-500: #4285f4, rgb(66, 133, 244);
+    --site-background-blue-linear-1: -webkit-linear-gradient(to right, #4387fd, #4683ea), linear-gradient(to right, #4387fd, #4683ea);
 
-        --site-text: rgba(51, 51, 51, 0.98);
-        --site-text: rgb(51, 51, 51);
+    --site-text: rgba(51, 51, 51, 0.98);
+    --site-text: rgb(51, 51, 51);
 
-        --text-color-dark: #bdc1c6;
-        --text-color-dark-h: #3c4043;
+    --text-color-dark: #bdc1c6;
+    --text-color-dark-h: #3c4043;
 
-        --link-color-dark: #969ba1;
-        --link-color-hover-dark: #4683ea;
-        --all-links-dark: -webkit-tap-highlight-color rgba(255, 255, 255, .10);
-
-
-        --button-color-dark: #4285f4;
-
-        --site-primary-border: 1px solid #dadce0;
-        --border-color-dark: 1px solid #4285f4;
+    --link-color-dark: #969ba1;
+    --link-color-hover-dark: #4683ea;
+    --all-links-dark: -webkit-tap-highlight-color rgba(255, 255, 255, .10);
 
 
-        --color-stroke: 1px solid #dadce0;
-    }
+    --button-color-dark: #4285f4;
+
+    --site-primary-border: 1px solid #dadce0;
+    --border-color-dark: 1px solid #4285f4;
+
+
+    --color-stroke: 1px solid #dadce0;
 
     * {
         /* DARK COLORS */
