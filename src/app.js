@@ -20,11 +20,11 @@ appRibbonSizer = appRibbon.clientHeight;
 
 appHeadingSizer = appHeaderSizer + appRibbonSizer + 48;
 
+console.log(appHeadingSizer);
+
 let ourCurrentYear;
 
 ourCurrentYear = new Date().getFullYear();
 console.log(ourCurrentYear);
 
 document.getElementById("dateNow1").innerHTML = 'ourCurrentYear';
-
-console.log(appHeadingSizer);
