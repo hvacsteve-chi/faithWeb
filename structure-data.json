@@ -8,8 +8,16 @@
     "Furnace repair service",
     "Handyman service"
   ],
-  "name": "Faith Heating and Cooling Chicago",
-  "short_name": "Faith HVAC",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1709 W Cornelia Ave Unit 2",
+    "addressLocality": "Chicago",
+    "addressRegion": "IL",
+    "postalCode": "60657",
+    "addressCountry": "US"
+  },
+  "background_color": "#212123",
+  "display": "standalone",
   "icons": [
     {
       "src": "img/favicon/web-app-manifest-192x192.png",
@@ -24,15 +32,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#000000",
-  "background_color": "#212123",
-  "display": "standalone",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1709 W Cornelia Ave Unit 2",
-    "addressLocality": "Chicago",
-    "addressRegion": "IL",
-    "postalCode": "60657",
-    "addressCountry": "US"
-  }
+  "name": "Faith Heating and Cooling Chicago",
+  "short_name": "Faith HVAC",
+  "theme_color": "#121214"
 }

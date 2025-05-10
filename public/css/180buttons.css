@@ -1,7 +1,7 @@
-.iSpin18024{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+
+display:flex;
+.iSpin18024{  align-items:center;
+    justify-contenenter;
     width:24px;
     height:24px;
     transition:transform 350ms;
@@ -33,12 +33,16 @@
           height:24px; 
           transition:transform 350ms; 
           border-radius: 50%; 
-          cursor: pointer; 
-          border: 0; 
-          background: 0 0; 
-          padding: 18px;
+          cursor: pointer;
+     
+          background: 0 0;
+    : pointer;}
+
+  
+      .iSpin18018{
               user-select: none;
-              cursor: pointer;}
+}
+
       .iSpin18018:hover{
               box-shadow:none;
               background:rgba(0 0 0 / 10%); 
@@ -131,6 +135,8 @@
               background:rgba(0 0 0 / 15%); 
           font-feature-settings: "liga" 1; 
           transition: all 350ms;}
+
+/*noinspection ALL*/
   
       .iSpin180B12{
               display: flex; 
@@ -140,7 +146,8 @@
           height:24px; 
           transition:transform 350ms; 
           border-radius: 50%; 
-          cursor: pointer; 
+          cursor: pointer; /*noinspection CssUnknownUnit*/
+     
           box-shadow: 0 1px 2px rgba(0 0 0 / 30%); 
           border: 0; 
           background: 0 0; 
