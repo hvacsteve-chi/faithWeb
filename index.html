@@ -7,21 +7,21 @@
   <meta name="google-site-verification" content="GSo7buConJufr_QUETL_IH06rZeFvtlof6xU7j_q"/>
   <title>Universal HVAC Chicago | 24 Hour Heating Repair | Faith Heating and Cooling Chicago</title>
   <meta name="description" content="Faith HVAC provides heating and air conditioning repair, installation and maintenance solutions to the city of Chicago Illinois.">
-  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="img/favicon/favicon-48x48.png">
-  <link rel="icon" type="image/svg" href="img/favicon/favicon.svg">
-  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="https://faithheatingcooling.com/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://faithheatingcooling.com/img/favicon/favicon-48x48.png">
+  <link rel="icon" type="image/svg" href="https://faithheatingcooling.com/img/favicon/favicon.svg">
+  <link rel="icon" href="https://faithheatingcooling.com/img/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#111111">
   <meta name="msapplication-TileImage" content="/img/ico/dark/ms-icon-144x144.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-  <link rel="stylesheet" href="css/180buttons.css" />
-  <link rel="stylesheet" href="css/search-styles.css" load="lazy" />
-  <link rel="stylesheet" href="css/root-colors.css" />
-  <link rel="stylesheet" href="css/root-functions.css" />
-  <link rel="stylesheet" href="css/dodger-styles.css" />
+  <link rel="stylesheet" href="https://faithheatingcooling.com/css/180buttons.css" />
+  <link rel="stylesheet" href="https://faithheatingcooling.com/css/search-styles.css" />
+  <link rel="stylesheet" href="https://faithheatingcooling.com/css/root-colors.css" />
+  <link rel="stylesheet" href="https://faithheatingcooling.com/css/root-functions.css" />
+  <link rel="stylesheet" href="https://faithheatingcooling.com/css/dodger-styles.css" />
   <style>
       :root {
           --nav-style-bg: hsl(233, 100%, 51%);
@@ -42,11 +42,11 @@
           --site-button-box-shadow-hover: none;
           --transition: transform 250ms;
           --site-button-padding: 4px;
-          --site-user-select: -webkit-user-select:none, -moz-user-select:none, user-select:none;
-          --site-backdrop-filter-under: -webkit-backdrop-filter:blur(5px) saturate(80%),
-          backdrop-filter:blur(5px) saturate(80%);
-          --site-backdrop-filter-over: -webkit-backdrop-filter:blur(4px) saturate(180%),
-          backdrop-filter:blur(4px) saturate(180%);
+          --site-user-select: -webkit-user-select none, -moz-user-select none, user-select none;
+          --site-backdrop-filter-under: -webkit-backdrop-filter blur(5px) saturate(80%),
+          backdrop-filter blur(5px) saturate(80%);
+          --site-backdrop-filter-over: -webkit-backdrop-filter blur(4px) saturate(180%),
+          backdrop-filter blur(4px) saturate(180%);
           --inner-content-margin: calc(100% - 116px);
       }
 
@@ -75,7 +75,6 @@
           display: -webkit-box;
           display: -webkit-flex;
           display: -moz-box;
-          display: -ms-flex-box;
           display: flex;
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
@@ -131,7 +130,7 @@
       }
 
       :not(svg) {
-          transform-origin: 0px 0px;
+          transform-origin: 0 0;
       }
 
       article {
@@ -194,7 +193,7 @@
           min-height: 100%;
           height: 100%;
           width: 100%;
-          -webkit-box-sizing:border-box;
+          -webkit-box-sizing: border-box;
           box-sizing: border-box;
           display: block;
           /*background: url('img/background/backgroundimg.png') center;*/
@@ -210,7 +209,7 @@
           left: 0;
           height: 48px;
           width: 100%;
-          background-color: hsla(233, 100%, 51%, 0.6);
+          /*background-color: hsla(233, 100%, 51%, 0.6);*/
           background-color: hsla(0, 0%, 0%, .92);
           -webkit-backdrop-filter: blur(5px) saturate(80%);
           backdrop-filter: blur(5px) saturate(80%);
@@ -237,7 +236,7 @@
           box-shadow: hsla(0, 0%, 0%, 0.41) 1px 2px 5px 1px;
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
-          box-sizing: box-sizing;
+          box-sizing: border-box;
           transition: all;
           transform: scalez(1.2);
       }
@@ -249,7 +248,7 @@
       .navAnnouncerInk:where(:hover, :focus, :active) {
           text-decoration: underline;
           filter: brightness(2);
-          transition: transform all 200ms ease-in-out;
+          transition: transform 200ms ease-in-out;
       }
 
       .wrap-links {
@@ -290,8 +289,7 @@
           border: none;
           background-color: transparent;
           padding: 4px;
-          transition: tranform 0.2s ease-in-out;
-          -webkit-user-select: none;
+        -webkit-user-select: none;
           -moz-user-select: none;
           user-select: none;
           cursor: pointer;
@@ -302,16 +300,15 @@
 
       .mobile-links:focus,
       .mobile-links:hover {
-          transform: all 300ms ease-in-out;
-          transform: scale(2px) cubic-bezier(.23, .8, .02, .94);
+          transition: 300ms cubic-bezier(.23, .8, .02, .94);
+          transform: scale(2);
           background-color: rgba(255, 255, 255, 0.35);
       }
 
       .mobile-links:active {
-          transform: all 250ms linear;
-          transform: scale(-1px) cubic-bezier(.23, .8, .06, .97);
+          transition: all 250ms cubic-bezier(.23, .8, .06, .97);
+          transform: scale(-1);
           background-color: hsla(195, 100%, 51%, 0.12);
-          transition: all 225ms;
       }
 
       .menu-links--1 {
@@ -336,14 +333,13 @@
 
       .menu-links--1 i:hover,
       .menu-links--1 i:focus {
-
-          transform: scalez(2px) ease;
-          transform: all 250ms ease-out;
+          transform: scalez(2);
+          transition: all 250ms ease-out;
       }
 
       .menu--link--1 i:active {
           color: rgba(55, 172, 255, 0.24);
-          transform: all 100ms ease-in-out;
+          transition: transform 100ms ease-in-out;
       }
 
       #logoHEADER {
@@ -385,7 +381,6 @@
           height: auto;
           overflow-y: auto;
           overflow-x: hidden;
-          flex-wrap: wrap;
       }
 
       .ribbonp {
@@ -409,7 +404,7 @@
 
       h3 {
           height: 4vh;
-          font-style: medium;
+          font-style: normal;
           font-weight: 400;
           margin-bottom: .1rem;
           padding-top: .25rem;
@@ -511,7 +506,7 @@
 
       .hoverMsg:active {
           color: hsl(0, 0%, 100%);
-          transition: all 100ns ease;
+          transition: all 100ms ease;
       }
 
       #slideMenu {
@@ -542,7 +537,7 @@
 
       .moveOver {
           animation: slide-left;
-          transition: transform all 200ms ease-in-out;
+          transition: transform 200ms ease-in-out;
       }
 
       .slide-menu-left {
@@ -604,7 +599,7 @@
       .profileButton:hover,
       .profileButton:focus {
           background-color: rgba(209, 209, 209, 0.458);
-          transform: all 200ms ease-in-out;
+          transition: transform 200ms ease-in-out;
       }
 
       .slideMenuRightContent {
@@ -623,7 +618,6 @@
       .slideMenuRightLi:focus {
           transition: all cubic-bezier(1, 0, 0, 1);
           border-bottom: 2px solid currentColor;
-          transform: all 250ms;
           z-index: 9999;
       }
 
@@ -733,7 +727,7 @@
           </div>
 
         <section class="slideMenuLeftContent">
-          <ul class="slideMenuLefttUl">
+          <ul class="slideMenuLeftUl">
             <li class="slideMenuLeftLi"><a href="#">heating</a></li>
             <li class="slideMenuLeftLi"><a href="#">cooling</a></li>
             <li class="slideMenuLeftLi"><a href="#">air quality</a></li>
@@ -776,7 +770,7 @@
         <i class="material-symbols-outlined" style="margin-right:5px;">construction</i> Site is Under Construction
       </p>
       <button title="close this notice" id="ribbonCloser" type="button" class="mobile-links profileButton" style="position:absolute; right: 12px; z-index: auto;">
-        <i class="material-symbols-outlined" aria-details="Close this notice" title="Close this notice">close</i>
+        <i class="material-symbols-outlined" title="Close this notice">close</i>
       </button>
     </aside>
     <article class="headline">
@@ -789,7 +783,8 @@ emergency_heat
       </div>
     </article>
     <div class="heroImage">
-      <img src="/img/background/HvacFanIcon.png" alt="HVAC Service Chicago Illinois" height="auto" width="290" style="max-width: 100%; width:calc var(--inner-content-margin);">
+      <img alt="HVAC Service Chicago Illinois" height="auto"
+           src="https://faithheatingcooling.com/img/background/HvacFanIcon.PNG" style="max-width: 100%; width:calc var(--inner-content-margin);" width="290">
     </div>
   </section>
 </main>
@@ -801,7 +796,7 @@ emergency_heat
     <a id="PhoneNumber" href="tel:7734134100" style="margin-left:5px;color:var(--color-teal-rgba);font-weight:600;">(773) 413-4100</a>
   </p>
 </footer>
-<script defer src="./src/app.js" type="module"></script>
-<script defer src="./src/ribbon.js" type="module"></script>
+<script  src="./src/app.js" type="module"></script>
+<script  src="./src/ribbon.js" type="module"></script>
 </body>
 </html>
